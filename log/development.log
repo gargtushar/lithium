@@ -1,0 +1,147 @@
+Started POST "/api/v1/categories" for 127.0.0.1 at 2017-01-29 16:08:59 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/categories"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 16:09:06 +0530
+Processing by Api::V1::CategoriesController#index as */*
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 16:10:59 +0530
+Processing by Api::V1::CategoriesController#index as */*
+Completed 200 OK in 49838ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 16:12:32 +0530
+Processing by Api::V1::CategoriesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.13ms)
+Completed 200 OK in 1640ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 16:52:11 +0530
+  
+LoadError (cannot load such file -- api_constraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 16:55:17 +0530
+  
+ActionController::RoutingError (uninitialized constant ApplicationController::ApiConstraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 16:56:31 +0530
+  
+ActionController::RoutingError (uninitialized constant ApplicationController::ApiConstraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:02:16 +0530
+  
+LoadError (cannot load such file -- api_constraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:06:18 +0530
+  
+LoadError (cannot load such file -- api_constraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:11:13 +0530
+  
+LoadError (cannot load such file -- api_constraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:11:54 +0530
+Processing by Api::V1::CategoriesController#index as */*
+Completed 500 Internal Server Error in 194080ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ApplicationController::ApiConstraints):
+  
+app/controllers/application_controller.rb:6:in `test'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:15:19 +0530
+Processing by Api::V1::CategoriesController#index as */*
+Completed 500 Internal Server Error in 17447ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ApplicationController::ApiConstraints):
+  
+app/controllers/application_controller.rb:6:in `test'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:16:01 +0530
+  
+LoadError (cannot load such file -- api_constraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:35:18 +0530
+Processing by Api::V1::CategoriesController#index as */*
+Completed 500 Internal Server Error in 54937ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant ApplicationController::ApiConstraints):
+  
+app/controllers/application_controller.rb:7:in `test'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:36:23 +0530
+  
+LoadError (cannot load such file -- api_constraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 17:37:44 +0530
+  
+LoadError (cannot load such file -- api_constraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 18:01:29 +0530
+Processing by Api::V1::CategoriesController#index as */*
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 22:41:07 +0530
+  
+ActionController::RoutingError (uninitialized constant ApplicationController::ApiConstraints):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
+Started GET "/api/v1/categories" for 127.0.0.1 at 2017-01-29 22:42:05 +0530
+  
+TypeError (wrong argument type String (expected Module)):
+  
+app/controllers/application_controller.rb:2:in `include'
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/categories_controller.rb:1:in `<top (required)>'
